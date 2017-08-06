@@ -1,7 +1,7 @@
 var gulp = require('gulp'),
     connect = require('gulp-connect');
 
-var outputDir = './'; 
+var outputDir = './views/'; 
 var htmlSources = [ outputDir + '*.html'];
 
 gulp.task('watch', function() {
