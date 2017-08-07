@@ -17,9 +17,34 @@
 
         <h1>Login</h1>
 
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-        <input type="submit">
+        <!-- action - where the form send data to  -->
+        <!-- method - what HTTP method (get/post) defaults to get method  -->
+
+        <!-- Label - Type 1  -->
+        <!-- <form action="http://wikipedia.org">
+            <label>
+                Username:
+                <input name="username" type="text" placeholder="Username">
+            </label>
+
+            <label>
+                Password:
+                <input name="password" type="password" placeholder="Password">
+            </label>
+            
+            <input type="submit">
+        </form> -->
+
+        <!-- Label - Type 2  -->
+         <form action="http://wikipedia.org">
+            <label for="username">Username:</label>
+            <input id="username" type="text" placeholder="Username">
+
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Password">
+
+            <input type="submit">
+        </form> 
         
     </body>
 </html>
