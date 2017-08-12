@@ -1,11 +1,15 @@
 h1 {
-    color: red;
+    color: #FF0000;
 }
 
 h4 {
-    color: blue;
+    /* r -> red  */
+    /* g -> green  */
+    /* b -> blue  */
+    color: rgb(0, 0, 255);
 }
 
 li {
-    color: green;
+    /* a -> alpha, specifies transparency, value ranges from 0 - 1  */
+    color: rgba(0, 125, 0, 0.5);
 }
