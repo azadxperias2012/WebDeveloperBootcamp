@@ -1,5 +1,11 @@
 h1 {
     color: #FF0000;
+    /*
+    border-color: gold;
+    border-style: solid;
+    border-width: 5px;
+    */
+    border: 5px solid gold;
 }
 
 h4 {
@@ -7,9 +13,17 @@ h4 {
     /* g -> green  */
     /* b -> blue  */
     color: rgb(0, 0, 255);
+    background: brown;
 }
 
 li {
     /* a -> alpha, specifies transparency, value ranges from 0 - 1  */
     color: rgba(0, 125, 0, 0.5);
+    background: yellow;
+}
+
+body {
+    background: url(https://static.trueachievements.com/customimages/066265.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
