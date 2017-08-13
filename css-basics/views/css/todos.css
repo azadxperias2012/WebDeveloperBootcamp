@@ -1,0 +1,14 @@
+/* Element Selector  */
+li {
+    border: 2px solid red;
+}
+
+/* ID Selector  */
+#idSelector {
+    background: yellow;
+}
+
+/* Class Selector  */
+.classSelector {
+    text-decoration: line-through;
+}
