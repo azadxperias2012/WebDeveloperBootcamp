@@ -1,0 +1,19 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "A simple tic tac toe board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azadxperias2012/WebDeveloperBootcamp.git"
+  },
+  "author": "Azad Asanali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azadxperias2012/WebDeveloperBootcamp/issues"
+  },
+  "homepage": "https://github.com/azadxperias2012/WebDeveloperBootcamp#readme"
+}
