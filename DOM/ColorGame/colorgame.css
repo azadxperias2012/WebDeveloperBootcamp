@@ -8,6 +8,7 @@ body {
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 25px;
 }
 
 #container {
@@ -15,7 +16,17 @@ body {
     max-width: 600px;
 }
 
-h1, span {
+h1 {
     color: white;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    background: blue;
 }
  
